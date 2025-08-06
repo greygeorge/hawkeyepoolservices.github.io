@@ -8,14 +8,14 @@
 </head>
 <body>
   <header>
-    <h1>HawkEye Pool Services</h1>
-    <nav>
-      <a href="#services">Services</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <img src="logo.png" alt="HawkEye Pool Services Logo" class="logo">
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
   <section id="services">
     <h2>Our Services</h2>
