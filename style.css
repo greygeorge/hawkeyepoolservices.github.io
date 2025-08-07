@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
+  background-color: #f0fdfa; /* Light teal background */
   color: #333;
 }
 
 header {
-  background-color: #234E52; /* dark teal blue */
+  background-color: #006d77; /* dark teal blue */
   color: white;
   padding: 1rem;
   text-align: center;
@@ -15,7 +15,7 @@ header {
 nav {
   display: flex;
   justify-content: center;
-  background-color: #38B2AC; /* slightly lighter teal */
+  background-color: #0096a2; /* slightly lighter teal */
 }
 
 nav a {
@@ -26,7 +26,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #2a6f97;
+  background-color: #00b4bc; /* Lighter teal on hover */
 }
 
 main {
@@ -35,7 +35,7 @@ main {
 
 footer {
   text-align: center;
-  background-color: #013a63;
+  background-color: #006d77;
   color: white;
   padding: 1rem;
   position: fixed;
