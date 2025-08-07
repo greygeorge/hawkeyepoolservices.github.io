@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #00FFFF; /* dark aqua blue */
+  background-color: #48D1CC; /* medium tourquiose */
   color: white;
   padding: 1rem;
   text-align: center;
@@ -26,7 +26,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #00b4bc; /* Lighter teal on hover */
+  background-color: #48D1CC; /* medium tourquiose */
 }
 
 main {
