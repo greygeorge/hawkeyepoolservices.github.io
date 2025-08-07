@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #40E0D0; /* dakr tourquiose background */
+  background-color: #1CA9A6; /* deep teal that complements logo */
   color: #333;
 }
 
 header {
-  background-color: #48D1CC; /* medium tourquiose */
+  background-color: #21B6B4; /* slightly lighter teal for contrast */
   color: white;
   padding: 1rem;
   text-align: center;
@@ -15,7 +15,7 @@ header {
 nav {
   display: flex;
   justify-content: center;
-  background-color: #40E0D0; /* dark tourqiouse */
+  background-color: #1CA9A6; /* matches body for smooth flow */
 }
 
 nav a {
@@ -26,7 +26,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #48D1CC; /* medium tourquiose */
+  background-color: #21B6B4; /* lighter teal on hover */
 }
 
 main {
@@ -35,7 +35,7 @@ main {
 
 footer {
   text-align: center;
-  background-color: #48D1CC;
+  background-color: #21B6B4;
   color: white;
   padding: 1rem;
   position: fixed;
