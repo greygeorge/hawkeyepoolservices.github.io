@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #013a63; /* deep navy blue */
+  background-color: #234E52; /* dark teal blue */
   color: white;
   padding: 1rem;
   text-align: center;
@@ -15,7 +15,7 @@ header {
 nav {
   display: flex;
   justify-content: center;
-  background-color: #01497c; /* slightly lighter navy */
+  background-color: #38B2AC; /* slightly lighter teal */
 }
 
 nav a {
