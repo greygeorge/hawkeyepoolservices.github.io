@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #006d77; /* dark teal blue */
+  background-color: #00FFFF; /* dark aqua blue */
   color: white;
   padding: 1rem;
   text-align: center;
@@ -15,7 +15,7 @@ header {
 nav {
   display: flex;
   justify-content: center;
-  background-color: #0096a2; /* slightly lighter teal */
+  background-color: #00CED1; /* slightly lighter tourqiouse */
 }
 
 nav a {
@@ -35,7 +35,7 @@ main {
 
 footer {
   text-align: center;
-  background-color: #006d77;
+  background-color: #48D1CC;
   color: white;
   padding: 1rem;
   position: fixed;
