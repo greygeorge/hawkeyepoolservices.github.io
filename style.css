@@ -4,7 +4,7 @@ body {
   font-size: 18px; /* default is -16px -bump up */
   line-height: 1.6; /* adds breathing room between lines */
   background-color: #FFF5EE; /* sandy beige for body */
-  color: #333; /* dark text for readibility */
+  color: #669999; /* teal test text for readibility */
 }
 
 header {
