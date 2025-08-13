@@ -5,6 +5,7 @@ body {
   line-height: 1.6; /* adds breathing room between lines */
   background-color: #FFF5EE; /* blue for strip color is 1B73A0, but using cream now */
   color: #489CC3; /* blue test text for readibility */
+  text-align: center;
 }
 
 header {
