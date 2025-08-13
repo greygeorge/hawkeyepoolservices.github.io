@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #4183C4; /* cyan blue behind middle text */
-  color: white;
+  background-color: #F5F5DC; /* sandy beige for body */
+  color: #333; /* dark text for readibility */
 }
 
 header {
@@ -35,7 +35,7 @@ main {
 
 footer {
   text-align: center;
-  background-color: #21B6B4;
+  background-color: #1CA9A6;
   color: white;
   padding: 1rem;
   position: fixed;
