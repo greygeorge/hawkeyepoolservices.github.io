@@ -4,7 +4,7 @@ body {
   font-size: 22px; /* default is -16px -bump up */
   line-height: 1.6; /* adds breathing room between lines */
   background-color: #FFF5EE; /* blue for strip color is 1B73A0, but using cream now */
-  color: #489CC3; /* blue test text for readibility */
+  color: #489CC3; /* blue body text for readibility */
   text-align: center;
 }
 
@@ -16,8 +16,8 @@ header {
 }
 
 /* Controls logo size */
-.logo {
-  width: clamp(140px, 32vw, 280px); /* adjust to desired size */
+header .logo {
+  width: clamp(220px, 60vw, 520px); /* adjust to desired size- min, fluid, max */
   height: auto;  /* keep proportions  correct */
   display: block;
   margin: 0 auto;
