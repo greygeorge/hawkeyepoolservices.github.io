@@ -12,6 +12,12 @@ header {
   text-align: center;
 }
 
+/* Controls logo size */
+.logo {
+  max width: 200px; /* adjust to desired size */
+  height: auto;  /* keep proportions  correct */
+}
+
 nav {
   display: flex;
   justify-content: center;
