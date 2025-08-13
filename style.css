@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px; /* default is -16px -bump up */
+  font-size: 22px; /* default is -16px -bump up */
   line-height: 1.6; /* adds breathing room between lines */
   background-color: #FFF5EE; /* blue for strip color is 1B73A0, but using cream now */
   color: #489CC3; /* blue test text for readibility */
