@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #FAF7F0; /* sand beige that complements logo */
+  background-color: #4183C4; /* cyan blue behind middle text */
   color: white;
 }
 
 header {
-  background-color: #21B6B4; /* slightly lighter teal for contrast */
+  background-color: #fafafa; /* white header background? */
   color: white;
   padding: 1rem;
   text-align: center;
