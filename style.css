@@ -24,7 +24,7 @@ header {
 nav {
   display: flex;
   justify-content: center;
-  background-color: #5DB0C5; /* matches body for smooth flow */
+  background-color: #489CC3; /* matches body for smooth flow test blue top strip lighter blue */
 }
 
 nav a {
