@@ -16,8 +16,9 @@ header {
 
 /* Controls logo size */
 .logo {
-  max width: 100px; /* adjust to desired size */
+  max-width: 200px; /* adjust to desired size */
   height: auto;  /* keep proportions  correct */
+  display: inline-block;
 }
 
 nav {
