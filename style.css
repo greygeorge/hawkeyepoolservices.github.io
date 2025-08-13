@@ -16,10 +16,14 @@ header {
 
 /* Controls logo size */
 .logo {
-  max-width: 800px; /* adjust to desired size */
+  width: clamp(140px, 32vw, 280px); /* adjust to desired size */
   height: auto;  /* keep proportions  correct */
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
 }
+
+/* make all images scale down on small screens */
+img { max-width: 100%; height: auto; display: block; }
 
 nav {
   display: flex;
@@ -38,8 +42,19 @@ nav a:hover {
   background-color: #489CC3; /* lighter teal on hover */
 }
 
+/* simple, responsive gallery layout */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat (auto-fit, minmax(180px. 1fr));
+  gap: 12px;
+  justify-items: center;
+}
+
+#gallery img { border-radius: 6px; }
+
+/* prevent fixed footer from covering content */
 main {
-  padding: 2rem;
+  paddingbottom; 80px;
 }
 
 footer {
