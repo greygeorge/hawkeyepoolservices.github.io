@@ -15,7 +15,7 @@ header {
 nav {
   display: flex;
   justify-content: center;
-  background-color: #1CA9A6; /* matches body for smooth flow */
+  background-color: #5DB0C5; /* matches body for smooth flow */
 }
 
 nav a {
@@ -35,7 +35,7 @@ main {
 
 footer {
   text-align: center;
-  background-color: #1CA9A6;
+  background-color: #5DB0C5;
   color: white;
   padding: 1rem;
   position: fixed;
