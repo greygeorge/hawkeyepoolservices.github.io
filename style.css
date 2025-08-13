@@ -6,6 +6,12 @@ body {
   background-color: #FFF5EE; /* blue for strip color is 1B73A0, but using cream now */
   color: #489CC3; /* blue body text for readibility */
   text-align: center;
+
+
+  /* Make the page a column so footer can sit at the bottom */
+  min height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -55,15 +61,13 @@ nav a:hover {
 
 /* prevent fixed footer from covering content */
 main {
-  paddingbottom; 80px;
+  flex: 1;
 }
 
 footer {
   text-align: center;
   background-color: #1B73A0;
   color: white;
-  padding: 1rem;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  font-size: 14px;    /* smaller text   */
+  padding: .5rem .75rem;    /* smaller height */
 }
