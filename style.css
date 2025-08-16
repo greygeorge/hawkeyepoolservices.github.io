@@ -52,12 +52,14 @@ nav a:hover {
 /* simple, responsive gallery layout */
 .gallery-container {
   display: grid;
-  grid-template-columns: repeat (auto-fit, minmax(180px. 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 12px;
   justify-items: center;
 }
 
-#gallery img { border-radius: 6px; }
+#gallery img { 
+  border-radius: 6px; 
+}
 
 /* prevent fixed footer from covering content */
 main {
