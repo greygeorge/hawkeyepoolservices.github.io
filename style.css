@@ -86,7 +86,11 @@ nav a:hover {
 }
 
 #gallery img { 
+  width: 100%;
+  aspect-ratio: 4 / 3;  /* or try 1 / 1 for squares  */
+  object-fit: cover;  /* fills the box nicely, crops edges if needed  */
   border-radius: 6px; 
+  display: block;
 }
 
 /* prevent fixed footer from covering content */
