@@ -32,6 +32,34 @@ header .logo {
 /* make all images scale down on small screens */
 img { max-width: 100%; height: auto; display: block; }
 
+
+
+
+
+/* about phtoto styles here */
+.about-photo {
+  max-width: 900px;  /* adjust to taste  */
+  margin: 2rem auto;   /*  center the block   */
+  padding: 0 1rem;   /* breathing room on small screens   */
+}
+
+.about-photo img {
+  border-radius: 12px;  /* optional soften corners */
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12);  /* optional subtle depth  */
+}
+
+.about-photo figcaption {
+  text-align: center;
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin-top: 0.5rem;
+}
+/* end about photo section  */
+
+
+
+  
+
 nav {
   display: flex;
   justify-content: center;
