@@ -62,11 +62,15 @@ img { max-width: 100%; height: auto; display: block; }
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;  /* left align so scroll feels natural */
+  overflow-x: auto;
+  white-space: nowrap;
   background-color: #489CC3; /* matches body for smooth flow test blue top strip lighter blue */
+  -webkit-overflow-scrolling: touch; /* smooth ios scoll */
 }
 
 nav a {
+  flex: 0 0 auto;  /* prevent squishing  */
   color: white;
   text-decoration: none;
   padding: 1rem;
